@@ -11,8 +11,8 @@ body {
 
 /* 2. Container styling */
 .container {
-    width: 400px;   /* Change width */
-    height: 300px;  /* Change height */
+    width: 300px;   /* Change width */
+    height: 200px;  /* Change height */
     text-align: center;
     padding: 40px;
     border-radius: 15px;

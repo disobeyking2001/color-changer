@@ -1,3 +1,4 @@
+/* 1. Body styling - center container */
 body {
     margin: 0;
     height: 100vh;
@@ -5,29 +6,30 @@ body {
     justify-content: center; /* center horizontally */
     align-items: center;     /* center vertically */
     font-family: Arial, sans-serif;
-    background: #ffffff;
+    background: #ffffff; /* default background */
 }
 
+/* 2. Container styling - small size */
 .container {
-    width: 250px;       /* smaller width */
-    padding: 20px;      /* space inside container */
-    text-align: center; 
+    width: 200px;          /* small width */
+    padding: 15px;         /* reduced padding */
+    text-align: center;
     border-radius: 15px;
     box-shadow: 0 0 20px rgba(0,0,0,0.2);
     background: #f2f2f2;
     box-sizing: border-box; /* include padding in width */
 }
 
-/* Make heading smaller */
+/* 3. Heading - smaller font */
 h1 {
-    font-size: 20px;
-    margin-bottom: 15px;
+    font-size: 16px;       /* smaller heading */
+    margin-bottom: 10px;
 }
 
-/* Make button smaller */
+/* 4. Button styling - smaller button */
 button {
-    padding: 10px 20px;
-    font-size: 16px;
+    padding: 8px 15px;     /* smaller button */
+    font-size: 14px;       /* smaller text */
     border: none;
     border-radius: 10px;
     cursor: pointer;
@@ -36,12 +38,13 @@ button {
     transition: 0.2s;
 }
 
+/* 5. Button hover effect */
 button:hover {
     background: #45a049;
 }
 
-/* Color code text */
+/* 6. Color code text - smaller font */
 p {
-    margin-top: 15px;
-    font-size: 16px;
+    font-size: 12px;
+    margin-top: 10px;
 }

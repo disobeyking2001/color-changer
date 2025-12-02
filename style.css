@@ -1,0 +1,47 @@
+/* 1. Body styling */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background: #ffffff; /* Default background color */
+}
+
+/* 2. Container styling */
+.container {
+    text-align: center;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    background: #f2f2f2;
+}
+
+/* 3. Title */
+h1 {
+    margin-bottom: 20px;
+}
+
+/* 4. Button styling */
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #4caf50;
+    color: white;
+    transition: 0.2s;
+}
+
+/* 5. Button hover effect */
+button:hover {
+    background: #45a049;
+}
+
+/* 6. Color code text */
+p {
+    margin-top: 20px;
+    font-size: 20px;
+}

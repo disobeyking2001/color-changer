@@ -6,30 +6,31 @@ body {
     justify-content: center; /* center horizontally */
     align-items: center;     /* center vertically */
     font-family: Arial, sans-serif;
-    background: #ffffff; /* default background */
+    background: #ffffff;     /* default background */
 }
 
-/* 2. Container styling - small size */
+/* 2. Container styling - auto width, minimum width */
 .container {
-    width: 200px;          /* small width */
-    padding: 15px;         /* reduced padding */
+    width: auto;             /* automatically fits content */
+    min-width: 220px;        /* small but fits everything */
     text-align: center;
+    padding: 15px;
     border-radius: 15px;
     box-shadow: 0 0 20px rgba(0,0,0,0.2);
     background: #f2f2f2;
-    box-sizing: border-box; /* include padding in width */
+    box-sizing: border-box;  /* include padding in width */
 }
 
-/* 3. Heading - smaller font */
+/* 3. Heading */
 h1 {
-    font-size: 16px;       /* smaller heading */
+    font-size: 18px;
     margin-bottom: 10px;
 }
 
-/* 4. Button styling - smaller button */
+/* 4. Button styling */
 button {
-    padding: 8px 15px;     /* smaller button */
-    font-size: 14px;       /* smaller text */
+    padding: 10px 20px;
+    font-size: 14px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
@@ -43,7 +44,7 @@ button:hover {
     background: #45a049;
 }
 
-/* 6. Color code text - smaller font */
+/* 6. Color code text */
 p {
     font-size: 12px;
     margin-top: 10px;

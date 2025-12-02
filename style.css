@@ -11,12 +11,13 @@ body {
 
 /* 2. Container styling */
 .container {
+    width: 400px;   /* Change width */
+    height: 300px;  /* Change height */
     text-align: center;
-    padding: 30px;
+    padding: 40px;
     border-radius: 15px;
     box-shadow: 0 0 20px rgba(0,0,0,0.2);
     background: #f2f2f2;
-}
 
 /* 3. Title */
 h1 {
